@@ -1,5 +1,4 @@
-@'
-name: Deploy to GitHub Pages
+﻿name: Deploy to GitHub Pages
 
 on:
   push:
@@ -33,4 +32,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
-'@ | Out-File -FilePath .github\workflows\deploy.yml -Encoding utf8
