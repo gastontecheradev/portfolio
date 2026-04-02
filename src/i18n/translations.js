@@ -30,13 +30,13 @@ const translations = {
         {
           title: 'Nova Fade Barbería',
           desc: 'Barbería y peluquería en Montevideo. Agenda de turnos online.',
-          tech: 'ASP.NET Core · C# · Bootstrap',
+          tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'Ver proyecto',
         },
         {
           title: 'Tienda Online',
           desc: 'Proyecto académico de e-commerce con catálogo y carrito de compras.',
-          tech: 'React · JavaScript · CSS',
+          tech: 'JavaScript · CSS . Node JS',
           linkLabel: 'Ver proyecto',
         },
       ],
@@ -53,7 +53,7 @@ const translations = {
       details: [
         { label: 'Rol principal', value: 'Desarrollador .NET' },
         { label: 'Stack', value: 'ASP.NET Core MVC, C#, SQL Server, React' },
-        { label: 'Formación', value: 'Ingeniería en Computación' },
+        { label: 'Formación', value: 'Estudiante de Ingeniería en Computación' },
         { label: 'Idiomas', value: 'Español · Inglés' },
       ],
     },
@@ -62,7 +62,7 @@ const translations = {
       number: '03',
       title: 'Tecnologías',
       groups: [
-        { title: 'Frontend', tags: ['JavaScript', 'React', 'HTML5', 'CSS3', 'Tailwind', 'Bootstrap', 'UX / UI', 'Python'] },
+        { title: 'Frontend', tags: ['JavaScript', 'React', 'HTML5', 'CSS3', 'Tailwind', 'Bootstrap', 'UX / UI'] },
         { title: 'Backend', tags: ['C#', 'ASP.NET Core MVC', 'SQL Server', 'Entity Framework', 'Node.js', 'Express'] },
         { title: 'Herramientas', tags: ['Estructuras de Datos', 'Patrones de Diseño', 'Linux', 'Git', 'Ciberseguridad'] },
       ],
@@ -121,13 +121,13 @@ const translations = {
         {
           title: 'Nova Fade Barbería',
           desc: 'Barbershop in Montevideo with an online appointment booking system.',
-          tech: 'ASP.NET Core · C# · Bootstrap',
+          tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'View project',
         },
         {
           title: 'Online Store',
           desc: 'Academic e-commerce project with product catalog and shopping cart.',
-          tech: 'React · JavaScript · CSS',
+          tech: 'JavaScript · CSS · Node JS',
           linkLabel: 'View project',
         },
       ],
@@ -144,7 +144,7 @@ const translations = {
       details: [
         { label: 'Main Role', value: '.NET Developer' },
         { label: 'Stack', value: 'ASP.NET Core MVC, C#, SQL Server, React' },
-        { label: 'Education', value: 'Computer Engineering' },
+        { label: 'Education', value: 'Computer Engineering Student' },
         { label: 'Languages', value: 'Spanish · English' },
       ],
     },
