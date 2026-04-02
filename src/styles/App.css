@@ -725,3 +725,47 @@ ul { list-style: none; }
   .hero-actions { flex-direction: column; gap: .75rem; }
   .hero-actions .btn { width: 100%; justify-content: center; }
 }
+
+/* ===================================================================
+   LANGUAGE TOGGLE & MOBILE NAV RIGHT
+   Add this at the end of src/styles/App.css
+   =================================================================== */
+
+/* Language toggle button */
+.lang-toggle {
+  padding: .4rem .85rem;
+  border-radius: 100px;
+  border: 1px solid rgba(255,255,255,.12);
+  background: rgba(255,255,255,.04);
+  color: var(--color-text-muted);
+  font-family: var(--font-heading);
+  font-size: .72rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+  cursor: pointer;
+  transition: all var(--transition-base);
+  text-transform: uppercase;
+}
+.lang-toggle:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+  background: var(--color-accent-soft);
+}
+
+/* Desktop: lang-toggle sits inside .navbar-links */
+.navbar-links .lang-toggle {
+  margin-left: .5rem;
+}
+
+/* Mobile: right side group with lang + hamburger */
+.navbar-right-mobile {
+  display: none;
+  align-items: center;
+  gap: .6rem;
+}
+
+@media (max-width: 768px) {
+  .navbar-right-mobile { display: flex; }
+  /* Hide the toggle inside .navbar-links on mobile (links are hidden) */
+  .navbar-links .lang-toggle { display: none; }
+}
