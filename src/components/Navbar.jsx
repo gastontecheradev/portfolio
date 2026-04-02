@@ -41,13 +41,13 @@ export default function Navbar() {
           </a>
         ))}
         <button className="lang-toggle" onClick={toggleLang} aria-label="Cambiar idioma">
-          {lang === 'es' ? 'EN' : 'ES'}
+          {lang === 'es' ? 'ENGLISH' : 'ESPAÑOL'}
         </button>
       </div>
 
       <div className="navbar-right-mobile">
         <button className="lang-toggle" onClick={toggleLang} aria-label="Cambiar idioma">
-          {lang === 'es' ? 'EN' : 'ES'}
+          {lang === 'es' ? 'ENGLISH' : 'ESPAÑOL'}
         </button>
         <button
           className={`navbar-toggle ${open ? 'open' : ''}`}

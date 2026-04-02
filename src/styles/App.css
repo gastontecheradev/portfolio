@@ -769,3 +769,55 @@ ul { list-style: none; }
   /* Hide the toggle inside .navbar-links on mobile (links are hidden) */
   .navbar-links .lang-toggle { display: none; }
 }
+
+/* ===================================================================
+   FORM STATES — Add this at the end of src/styles/App.css
+   =================================================================== */
+
+/* Spinner for sending state */
+.spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255,255,255,.3);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin .6s linear infinite;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Disabled state for inputs and button */
+.form-input:disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
+.btn:disabled {
+  opacity: .7;
+  cursor: not-allowed;
+  transform: none !important;
+}
+
+/* Success / Error messages */
+.form-message {
+  font-size: .9rem;
+  margin-top: .5rem;
+  padding: .75rem 1rem;
+  border-radius: var(--radius-sm);
+  animation: fadeIn .4s var(--ease-out-expo);
+}
+.form-success {
+  color: var(--color-success);
+  background: rgba(52, 211, 153, 0.08);
+  border: 1px solid rgba(52, 211, 153, 0.15);
+}
+.form-error {
+  color: var(--color-danger, #f87171);
+  background: rgba(248, 113, 113, 0.08);
+  border: 1px solid rgba(248, 113, 113, 0.15);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

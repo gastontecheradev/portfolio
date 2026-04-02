@@ -1,6 +1,5 @@
 const translations = {
   es: {
-    // Navbar
     nav: {
       projects: 'Proyectos',
       about: 'Sobre mí',
@@ -8,7 +7,6 @@ const translations = {
       contact: 'Contacto',
     },
 
-    // Hero
     hero: {
       badge: 'Disponible para proyectos',
       name: 'Gastón',
@@ -19,7 +17,6 @@ const translations = {
       ctaOutline: 'Contactame',
     },
 
-    // Projects
     projects: {
       number: '01',
       title: 'Proyectos destacados',
@@ -45,7 +42,6 @@ const translations = {
       ],
     },
 
-    // About
     about: {
       number: '02',
       title: 'Sobre mí',
@@ -62,7 +58,6 @@ const translations = {
       ],
     },
 
-    // Skills
     skills: {
       number: '03',
       title: 'Tecnologías',
@@ -73,7 +68,6 @@ const translations = {
       ],
     },
 
-    // Contact
     contact: {
       number: '04',
       title: 'Contacto',
@@ -86,17 +80,17 @@ const translations = {
         message: 'Mensaje',
         messagePlaceholder: 'Contame tu idea o consulta',
         submit: 'Enviar mensaje',
+        sending: 'Enviando...',
         success: '✓ Tu mensaje ha sido enviado con éxito. ¡Gracias!',
+        error: '✕ Hubo un error al enviar. Por favor intentá de nuevo.',
       },
       infoTitle: 'Conectemos',
     },
 
-    // Footer
     footer: 'Montevideo, Uruguay',
   },
 
   en: {
-    // Navbar
     nav: {
       projects: 'Projects',
       about: 'About',
@@ -104,7 +98,6 @@ const translations = {
       contact: 'Contact',
     },
 
-    // Hero
     hero: {
       badge: 'Available for projects',
       name: 'Gastón',
@@ -115,7 +108,6 @@ const translations = {
       ctaOutline: 'Contact me',
     },
 
-    // Projects
     projects: {
       number: '01',
       title: 'Featured Projects',
@@ -141,7 +133,6 @@ const translations = {
       ],
     },
 
-    // About
     about: {
       number: '02',
       title: 'About Me',
@@ -158,7 +149,6 @@ const translations = {
       ],
     },
 
-    // Skills
     skills: {
       number: '03',
       title: 'Technologies',
@@ -169,7 +159,6 @@ const translations = {
       ],
     },
 
-    // Contact
     contact: {
       number: '04',
       title: 'Contact',
@@ -182,12 +171,13 @@ const translations = {
         message: 'Message',
         messagePlaceholder: 'Tell me about your idea or question',
         submit: 'Send message',
+        sending: 'Sending...',
         success: '✓ Your message has been sent successfully. Thank you!',
+        error: '✕ There was an error sending your message. Please try again.',
       },
       infoTitle: "Let's connect",
     },
 
-    // Footer
     footer: 'Montevideo, Uruguay',
   },
 };

@@ -9,10 +9,10 @@ export default function Hero() {
       <div className="hero-overlay" />
 
       <div className="hero-content">
-        <div className="hero-badge hero-anim hero-anim-1">
+        {/*<div className="hero-badge hero-anim hero-anim-1">
           <span className="badge-dot" />
           {t.hero.badge}
-        </div>
+        </div>*/}
 
         <h1 className="hero-anim hero-anim-2">
           {t.hero.name} <span className="gradient">{t.hero.lastName}</span>

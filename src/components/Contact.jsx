@@ -2,19 +2,47 @@ import { useState } from 'react';
 import { useLang } from '../i18n/LanguageContext';
 import useInView from '../hooks/useInView';
 
+// ╔══════════════════════════════════════════════════════════════╗
+// ║  IMPORTANTE: Reemplazá 'TU_FORM_ID' por tu ID de Formspree ║
+// ║  Ejemplo: https://formspree.io/f/xyzabcde                  ║
+// ╚══════════════════════════════════════════════════════════════╝
+const FORMSPREE_URL = 'https://formspree.io/f/xreoaygn';
+
 export default function Contact() {
   const { t } = useLang();
   const [ref, visible] = useInView();
   const [form, setForm] = useState({ name: '', email: '', message: '' });
-  const [sent, setSent] = useState(false);
+  const [status, setStatus] = useState('idle'); // idle | sending | success | error
 
   const handleChange = (e) => setForm({ ...form, [e.target.name]: e.target.value });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setSent(true);
-    setForm({ name: '', email: '', message: '' });
-    setTimeout(() => setSent(false), 5000);
+    setStatus('sending');
+
+    try {
+      const response = await fetch(FORMSPREE_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({
+          name: form.name,
+          email: form.email,
+          message: form.message,
+        }),
+      });
+
+      if (response.ok) {
+        setStatus('success');
+        setForm({ name: '', email: '', message: '' });
+        setTimeout(() => setStatus('idle'), 5000);
+      } else {
+        setStatus('error');
+        setTimeout(() => setStatus('idle'), 4000);
+      }
+    } catch {
+      setStatus('error');
+      setTimeout(() => setStatus('idle'), 4000);
+    }
   };
 
   return (
@@ -28,34 +56,82 @@ export default function Contact() {
         <p className="contact-intro">{t.contact.intro}</p>
 
         <div className="contact-grid" ref={ref}>
+          {/* Form */}
           <div className={`fade-up ${visible ? 'visible' : ''}`}>
             <form className="contact-form" onSubmit={handleSubmit}>
               <div className="form-group">
                 <label className="form-label" htmlFor="name">{t.contact.form.name}</label>
-                <input className="form-input" id="name" name="name" placeholder={t.contact.form.namePlaceholder} value={form.name} onChange={handleChange} required />
+                <input
+                  className="form-input"
+                  id="name"
+                  name="name"
+                  placeholder={t.contact.form.namePlaceholder}
+                  value={form.name}
+                  onChange={handleChange}
+                  required
+                  disabled={status === 'sending'}
+                />
               </div>
               <div className="form-group">
                 <label className="form-label" htmlFor="email">{t.contact.form.email}</label>
-                <input className="form-input" id="email" name="email" type="email" placeholder={t.contact.form.emailPlaceholder} value={form.email} onChange={handleChange} required />
+                <input
+                  className="form-input"
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder={t.contact.form.emailPlaceholder}
+                  value={form.email}
+                  onChange={handleChange}
+                  required
+                  disabled={status === 'sending'}
+                />
               </div>
               <div className="form-group">
                 <label className="form-label" htmlFor="message">{t.contact.form.message}</label>
-                <textarea className="form-input" id="message" name="message" rows="5" placeholder={t.contact.form.messagePlaceholder} value={form.message} onChange={handleChange} required />
+                <textarea
+                  className="form-input"
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder={t.contact.form.messagePlaceholder}
+                  value={form.message}
+                  onChange={handleChange}
+                  required
+                  disabled={status === 'sending'}
+                />
               </div>
-              <button type="submit" className="btn btn-primary" style={{ alignSelf: 'flex-start' }}>
-                {t.contact.form.submit}
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                  <line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" />
-                </svg>
+
+              <button
+                type="submit"
+                className="btn btn-primary"
+                style={{ alignSelf: 'flex-start' }}
+                disabled={status === 'sending'}
+              >
+                {status === 'sending' ? (
+                  <>
+                    <span className="spinner" />
+                    {t.contact.form.sending}
+                  </>
+                ) : (
+                  <>
+                    {t.contact.form.submit}
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                      <line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" />
+                    </svg>
+                  </>
+                )}
               </button>
-              {sent && (
-                <p style={{ color: 'var(--color-success)', fontSize: '.9rem', marginTop: '.5rem' }}>
-                  {t.contact.form.success}
-                </p>
+
+              {status === 'success' && (
+                <p className="form-message form-success">{t.contact.form.success}</p>
+              )}
+              {status === 'error' && (
+                <p className="form-message form-error">{t.contact.form.error}</p>
               )}
             </form>
           </div>
 
+          {/* Info card */}
           <div className={`fade-up fade-up-d1 ${visible ? 'visible' : ''}`}>
             <div className="contact-info-card">
               <h3 className="contact-info-title">{t.contact.infoTitle}</h3>
