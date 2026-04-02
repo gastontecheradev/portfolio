@@ -3,10 +3,11 @@ import { useLang } from '../i18n/LanguageContext';
 import useInView from '../hooks/useInView';
 
 // ╔══════════════════════════════════════════════════════════════╗
-// ║  IMPORTANTE: Reemplazá 'TU_FORM_ID' por tu ID de Formspree ║
-// ║  Ejemplo: https://formspree.io/f/xyzabcde                  ║
+// ║  IMPORTANTE: Reemplazá 'TU_FORM_ID' por tu ID de Formspree   ║
+// ║  Ejemplo: https://formspree.io/f/xyzabcde                    ║
 // ╚══════════════════════════════════════════════════════════════╝
-const FORMSPREE_URL = 'https://formspree.io/f/xreoaygn';
+
+const FORMSPREE_URL = `https://formspree.io/f/${process.env.REACT_APP_FORMSPREE_ID}`;
 
 export default function Contact() {
   const { t } = useLang();
