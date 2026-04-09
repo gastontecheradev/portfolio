@@ -8,9 +8,9 @@ const projectUrls = [
 ];
 
 const projectImgs = [
-  'https://gastontecheradev.somee.com/images/proyecto-1.jpg',
-  'https://gastontecheradev.somee.com/images/proyecto-2.jpg',
-  'https://gastontecheradev.somee.com/images/proyecto-3.jpg',
+  '/images/proyecto-1.jpg',
+  '/images/proyecto-2.jpg',
+  '/images/proyecto-3.jpg',
 ];
 
 export default function Projects() {
