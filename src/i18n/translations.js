@@ -11,8 +11,8 @@ const translations = {
       badge: 'Disponible para proyectos',
       name: 'Gastón',
       lastName: 'Techera',
-      role: 'Desarrollador .NET · React',
-      desc: 'Diseño y desarrollo aplicaciones en .NET enfocadas en eficiencia, estabilidad y una experiencia de usuario fluida y consistente.',
+      role: 'Desarrollador .NET',
+      desc: 'Diseño y desarrollo aplicaciones en .NET para la resolución de problemas reales, en proyectos personales y empresariales.',
       cta: 'Ver proyectos',
       ctaOutline: 'Contactame',
     },
@@ -47,7 +47,7 @@ const translations = {
       title: 'Sobre mí',
       text: [
         'Soy desarrollador <strong>.NET</strong> enfocado en aplicaciones web usando <strong>ASP.NET Core, C# y SQL Server</strong>. Me interesa todo lo relacionado con buenas prácticas, arquitectura limpia y patrones de diseño.',
-        'Actualmente continúo formándome en <strong>Ingeniería en Computación</strong> y Desarrollo Web, trabajando en proyectos personales que combinan <strong>backend robusto</strong> con <strong>interfaces claras y eficientes</strong>.',
+        'Actualmente continúo formándome en <strong>Ingeniería en Computación</strong> y Desarrollo Web, trabajando en proyectos que combinan <strong>backend robusto</strong> con <strong>interfaces claras y eficientes</strong>.',
         'Me gusta aprender de forma constante y seguir mejorando en cada proyecto para que sea más mantenible y escalable.',
       ],
       details: [
@@ -62,9 +62,9 @@ const translations = {
       number: '03',
       title: 'Tecnologías',
       groups: [
-        { title: 'Frontend', tags: ['JavaScript', 'React', 'HTML5', 'CSS3', 'Tailwind', 'Bootstrap', 'UX / UI'] },
-        { title: 'Backend', tags: ['C#', 'ASP.NET Core MVC', 'SQL Server', 'Entity Framework', 'Node.js', 'Express'] },
-        { title: 'Herramientas', tags: ['Estructuras de Datos', 'Patrones de Diseño', 'Linux', 'Git', 'Ciberseguridad'] },
+        { title: 'Frontend', tags: ['JavaScript', 'React', 'HTML5', 'CSS3', 'Tailwind', 'Bootstrap'] },
+        { title: 'Backend', tags: ['C#', 'ASP.NET', 'SQL Server', 'Entity Framework', 'Node.js'] },
+        { title: 'Programación', tags: ['Estructuras de Datos', 'Algoritmos', 'Arquitectura de Software'] },
       ],
     },
 
@@ -102,8 +102,8 @@ const translations = {
       badge: 'Available for projects',
       name: 'Gastón',
       lastName: 'Techera',
-      role: '.NET Developer · React',
-      desc: 'I design and develop .NET applications focused on efficiency, stability, and a smooth, consistent user experience.',
+      role: '.NET Developer',
+      desc: 'I design and develop .NET applications to solve real-world problems, both in personal and business projects.',
       cta: 'View projects',
       ctaOutline: 'Contact me',
     },
@@ -138,7 +138,7 @@ const translations = {
       title: 'About Me',
       text: [
         "I'm a <strong>.NET developer</strong> focused on web applications using <strong>ASP.NET Core, C# and SQL Server</strong>. I'm passionate about best practices, clean architecture, and design patterns.",
-        "I'm currently pursuing a degree in <strong>Computer Engineering</strong> while working on personal projects that combine a <strong>solid backend</strong> with <strong>clear, efficient interfaces</strong>.",
+        "I'm currently pursuing a degree in <strong>Computer Engineering</strong> while working on projects that combine a <strong>solid backend</strong> with <strong>clear, efficient interfaces</strong>.",
         'I enjoy learning constantly and improving with each project to make it more maintainable and scalable.',
       ],
       details: [
@@ -153,9 +153,9 @@ const translations = {
       number: '03',
       title: 'Technologies',
       groups: [
-        { title: 'Frontend', tags: ['JavaScript', 'React', 'HTML5', 'CSS3', 'Tailwind', 'Bootstrap', 'UX / UI', 'Python'] },
-        { title: 'Backend', tags: ['C#', 'ASP.NET Core MVC', 'SQL Server', 'Entity Framework', 'Node.js', 'Express'] },
-        { title: 'Tools', tags: ['Data Structures', 'Design Patterns', 'Linux', 'Git', 'Cybersecurity'] },
+        { title: 'Frontend', tags: ['JavaScript', 'React', 'HTML5', 'CSS3', 'Tailwind', 'Bootstrap'] },
+        { title: 'Backend', tags: ['C#', 'ASP.NET', 'SQL Server', 'Entity Framework', 'Node.js'] },
+        { title: 'Coding', tags: ['Data Structures', 'Algorithms', 'Software Architecture'] },
       ],
     },
 
