@@ -1,11 +1,6 @@
 import { useState } from 'react';
 import { useLang } from '../i18n/LanguageContext';
-import useInView from '../hooks/useInView';
-
-// ╔══════════════════════════════════════════════════════════════╗
-// ║  IMPORTANTE: Reemplazá 'TU_FORM_ID' por tu ID de Formspree   ║
-// ║  Ejemplo: https://formspree.io/f/xyzabcde                    ║
-// ╚══════════════════════════════════════════════════════════════╝
+import useInView from '../hooks/useInView'
 
 const FORMSPREE_URL = `https://formspree.io/f/${process.env.REACT_APP_FORMSPREE_ID}`;
 

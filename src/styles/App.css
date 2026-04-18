@@ -1,7 +1,3 @@
-/* ===================================================================
-   GASTON TECHERA — PORTFOLIO REACT (Dark Premium)
-   =================================================================== */
-
 :root {
   --color-bg:              #0c0f16;
   --color-bg-elevated:     #131720;
@@ -728,7 +724,6 @@ ul { list-style: none; }
 
 /* ===================================================================
    LANGUAGE TOGGLE & MOBILE NAV RIGHT
-   Add this at the end of src/styles/App.css
    =================================================================== */
 
 /* Language toggle button */
@@ -771,7 +766,7 @@ ul { list-style: none; }
 }
 
 /* ===================================================================
-   FORM STATES — Add this at the end of src/styles/App.css
+   FORM STATES
    =================================================================== */
 
 /* Spinner for sending state */
