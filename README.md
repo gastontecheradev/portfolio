@@ -2,7 +2,7 @@
 
 Personal developer portfolio built with **React 18**, featuring bilingual support (Spanish / English), scroll-triggered animations, and a working contact form. Deployed to **GitHub Pages**.
 
-🔗 **Live site:** [gastontecheradev.github.io/portfolio](https://gastontecheradev.github.io/portfolio)
+🔗 **Live site:** [Portfolio](https://gastontecheradev.github.io/portfolio)
 
 ---
 
