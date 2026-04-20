@@ -11,7 +11,7 @@ Personal developer portfolio built with **React 18**, featuring bilingual suppor
 - **Single-page layout** — Hero, Projects, About, Skills, and Contact sections
 - **Bilingual (ES / EN)** — language toggle in the navbar, powered by a custom React Context with no external i18n library
 - **Scroll animations** — sections fade in on enter using a `useInView` hook backed by the Intersection Observer API
-- **Contact form** — integrated with [Formspree](https://formspree.io), with loading, success, and error states
+- **Contact form** — integrated with Formspree, with loading, success, and error states
 - **Active link tracking** — navbar highlights the current section while scrolling
 - **Responsive** — mobile hamburger menu, adaptive layouts
 - **GitHub Pages deployment** — one-command deploy via `gh-pages`
