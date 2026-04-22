@@ -27,15 +27,15 @@ const translations = {
           tech: 'ASP.NET Core · C# · SQL',
           linkLabel: 'Ver proyecto',
         },
-        {
-          title: 'Nova Fade Barbería',
-          desc: 'Barbería y peluquería en Montevideo. Agenda de turnos online.',
+                {
+          title: 'Gestion Pro',
+          desc: 'Sistema de gestión empresarial. Control de productos.',
           tech: 'ASP.NET Core · C# · SQL',
           linkLabel: 'Ver proyecto',
         },
         {
-          title: 'Gestion Pro',
-          desc: 'Sistema de gestión empresarial. Control de productos.',
+          title: 'Nova Fade Barbería',
+          desc: 'Barbería y peluquería en Montevideo. Agenda de turnos online.',
           tech: 'ASP.NET Core · C# · SQL',
           linkLabel: 'Ver proyecto',
         },
