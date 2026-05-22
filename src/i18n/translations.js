@@ -8,11 +8,11 @@ const translations = {
     },
 
     hero: {
-      badge: 'Disponible para proyectos',
+      badge: 'Abierto a oportunidades',
       name: 'Gastón',
       lastName: 'Techera',
       role: 'Desarrollador .NET',
-      desc: 'Diseño y desarrollo aplicaciones en .NET para la resolución de problemas reales, en proyectos personales y empresariales.',
+      desc: 'Diseño y desarrollo aplicaciones web en .NET orientadas a problemas reales, con foco en código mantenible y soluciones que aporten valor concreto.',
       cta: 'Ver proyectos',
       ctaOutline: 'Contactame',
     },
@@ -23,20 +23,20 @@ const translations = {
       items: [
         {
           title: 'Pasear por Pasear',
-          desc: 'Blog de paseos por Montevideo con reserva de tours y suscripción de newsletter.',
-          tech: 'ASP.NET Core · C# · SQL',
+          desc: 'Plataforma web para un emprendimiento de turismo en Montevideo. Desarrollé el sistema de reservas de tours, panel de administración y suscripción a newsletter. ASP.NET Core MVC + SQL Server.',
+          tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'Ver proyecto',
         },
-                {
+        {
           title: 'Gestion Pro',
-          desc: 'Sistema de gestión empresarial. Control de productos.',
-          tech: 'ASP.NET Core · C# · SQL',
+          desc: 'Sistema de gestión empresarial con control de inventario y productos. Construí backend, modelo de datos y la interfaz de administración. ASP.NET Core MVC + SQL Server.',
+          tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'Ver proyecto',
         },
         {
           title: 'Nova Fade Barbería',
-          desc: 'Barbería y peluquería en Montevideo. Agenda de turnos online.',
-          tech: 'ASP.NET Core · C# · SQL',
+          desc: 'Sitio con sistema de agenda online para una barbería en Montevideo. Implementé la lógica de reservas, gestión de turnos y panel del negocio. ASP.NET Core MVC + SQL Server.',
+          tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'Ver proyecto',
         },
       ],
@@ -46,13 +46,14 @@ const translations = {
       number: '02',
       title: 'Sobre mí',
       text: [
-        'Soy desarrollador <strong>.NET</strong> enfocado en aplicaciones web usando <strong>ASP.NET Core, C# y SQL Server</strong>. Me interesa todo lo relacionado con buenas prácticas, arquitectura limpia y patrones de diseño.',
-        'Actualmente continúo formándome en <strong>Ingeniería en Computación</strong> y Desarrollo Web, trabajando en proyectos que combinan <strong>backend robusto</strong> con <strong>interfaces claras y eficientes</strong>.',
-        'Me gusta aprender de forma constante y seguir mejorando en cada proyecto para que sea más mantenible y escalable.',
+        'Soy desarrollador <strong>.NET</strong> enfocado en aplicaciones web con <strong>ASP.NET Core, C# y SQL Server</strong>. Me interesa el desarrollo guiado por buenas prácticas, arquitectura limpia y patrones de diseño.',
+        'He desarrollado <strong>proyectos reales para emprendimientos y personas</strong>, llevándolos de punta a punta: relevamiento, desarrollo, base de datos y despliegue. Eso me dio experiencia entregando software funcional, no solo escribiendo código.',
+        'Actualmente curso <strong>Ingeniería en Computación</strong> y sigo formándome de forma constante para construir productos más mantenibles y escalables.',
       ],
       details: [
         { label: 'Rol principal', value: 'Desarrollador .NET' },
         { label: 'Stack', value: 'ASP.NET Core MVC, C#, SQL Server, React' },
+        { label: 'Experiencia', value: 'Proyectos reales entregados de punta a punta' },
         { label: 'Formación', value: 'Estudiante de Ingeniería en Computación' },
         { label: 'Idiomas', value: 'Español · Inglés' },
       ],
@@ -71,7 +72,7 @@ const translations = {
     contact: {
       number: '04',
       title: 'Contacto',
-      intro: 'Si querés hablar sobre un proyecto, colaboración o consulta técnica, podés escribirme.',
+      intro: 'Si querés conversar sobre una oportunidad laboral, colaboración o consulta técnica, podés escribirme.',
       form: {
         name: 'Nombre',
         namePlaceholder: 'Tu nombre',
@@ -99,11 +100,11 @@ const translations = {
     },
 
     hero: {
-      badge: 'Available for projects',
+      badge: 'Open to opportunities',
       name: 'Gastón',
       lastName: 'Techera',
       role: '.NET Developer',
-      desc: 'I design and develop .NET applications to solve real-world problems, both in personal and business projects.',
+      desc: 'I design and develop .NET web applications aimed at real-world problems, with a focus on maintainable code and solutions that deliver concrete value.',
       cta: 'View projects',
       ctaOutline: 'Contact me',
     },
@@ -114,20 +115,20 @@ const translations = {
       items: [
         {
           title: 'Pasear por Pasear',
-          desc: 'Montevideo walking tours blog with tour booking and newsletter subscription.',
-          tech: 'ASP.NET Core · C# · SQL',
-          linkLabel: 'View project',
-        },
-        {
-          title: 'Nova Fade Barbería',
-          desc: 'Barbershop in Montevideo with an online appointment booking system.',
-          tech: 'ASP.NET Core · C# · SQL',
+          desc: 'Web platform for a tourism business in Montevideo. Built the tour booking system, admin panel and newsletter subscription. ASP.NET Core MVC + SQL Server.',
+          tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'View project',
         },
         {
           title: 'Gestion Pro',
-          desc: 'Business management system. Product control.',
-          tech: 'ASP.NET Core · C# · SQL',
+          desc: 'Business management system with inventory and product control. Built the backend, data model and admin interface. ASP.NET Core MVC + SQL Server.',
+          tech: 'ASP.NET Core · C# · SQL Server',
+          linkLabel: 'View project',
+        },
+        {
+          title: 'Nova Fade Barbería',
+          desc: 'Website with online booking for a barbershop in Montevideo. Implemented the appointment logic, schedule management and business admin panel. ASP.NET Core MVC + SQL Server.',
+          tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'View project',
         },
       ],
@@ -137,13 +138,14 @@ const translations = {
       number: '02',
       title: 'About Me',
       text: [
-        "I'm a <strong>.NET developer</strong> focused on web applications using <strong>ASP.NET Core, C# and SQL Server</strong>. I'm passionate about best practices, clean architecture, and design patterns.",
-        "I'm currently pursuing a degree in <strong>Computer Engineering</strong> while working on projects that combine a <strong>solid backend</strong> with <strong>clear, efficient interfaces</strong>.",
-        'I enjoy learning constantly and improving with each project to make it more maintainable and scalable.',
+        "I'm a <strong>.NET developer</strong> focused on web applications with <strong>ASP.NET Core, C# and SQL Server</strong>. I work guided by best practices, clean architecture and design patterns.",
+        "I've built <strong>real projects for small businesses and individuals</strong>, taking them end to end: requirements, development, database and deployment. That gave me experience shipping functional software, not just writing code.",
+        "I'm currently pursuing a degree in <strong>Computer Engineering</strong> and continue learning to build more maintainable and scalable products.",
       ],
       details: [
         { label: 'Main Role', value: '.NET Developer' },
         { label: 'Stack', value: 'ASP.NET Core MVC, C#, SQL Server, React' },
+        { label: 'Experience', value: 'Real projects shipped end to end' },
         { label: 'Education', value: 'Computer Engineering Student' },
         { label: 'Languages', value: 'Spanish · English' },
       ],
@@ -162,7 +164,7 @@ const translations = {
     contact: {
       number: '04',
       title: 'Contact',
-      intro: "If you'd like to discuss a project, collaboration, or technical inquiry, feel free to reach out.",
+      intro: "If you'd like to talk about a job opportunity, collaboration, or technical inquiry, feel free to reach out.",
       form: {
         name: 'Name',
         namePlaceholder: 'Your name',
