@@ -72,7 +72,7 @@ const translations = {
     contact: {
       number: '04',
       title: 'Contacto',
-      intro: 'Si querés conversar sobre una oportunidad laboral, colaboración o consulta técnica, podés escribirme.',
+      intro: 'Si querés conversar sobre una oportunidad laboral, colaboración o consulta técnica, podés escribirme en este formulario.',
       form: {
         name: 'Nombre',
         namePlaceholder: 'Tu nombre',
@@ -164,7 +164,7 @@ const translations = {
     contact: {
       number: '04',
       title: 'Contact',
-      intro: "If you'd like to talk about a job opportunity, collaboration, or technical inquiry, feel free to reach out.",
+      intro: "If you'd like to talk about a job opportunity, collaboration, or technical inquiry, you can write to me through this form.",
       form: {
         name: 'Name',
         namePlaceholder: 'Your name',
