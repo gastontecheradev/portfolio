@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="container">
-        © {new Date().getFullYear()} — Gastón Techera · {t.footer}
+      Gastón Techera · {t.footer} - {new Date().getFullYear()}
       </div>
     </footer>
   );
