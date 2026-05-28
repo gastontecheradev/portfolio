@@ -21,14 +21,15 @@ export default function About() {
           </div>
 
           <div className={`fade-up fade-up-d1 ${visible ? 'visible' : ''}`}>
-            <div className="detail-card">
-              {t.about.details.map((d) => (
-                <div className="detail-item" key={d.label}>
-                  <span className="detail-label">{d.label}</span>
-                  <span className="detail-value">{d.value}</span>
-                </div>
-              ))}
-            </div>
+            <figure className="about-photo">
+              <img
+                src={`${process.env.PUBLIC_URL}/images/profile.jpg`}
+                alt={t.about.photoAlt}
+                loading="lazy"
+                width="600"
+                height="750"
+              />
+            </figure>
           </div>
         </div>
       </div>

@@ -50,13 +50,7 @@ const translations = {
         'He desarrollado <strong>proyectos reales para emprendimientos y personas</strong>, llevándolos de punta a punta: relevamiento, desarrollo, base de datos y despliegue. Eso me dio experiencia entregando software funcional, no solo escribiendo código.',
         'Actualmente curso <strong>Ingeniería en Computación</strong> y sigo formándome de forma constante para construir productos más mantenibles y escalables.',
       ],
-      details: [
-        { label: 'Rol principal', value: 'Desarrollador .NET' },
-        { label: 'Stack', value: 'ASP.NET Core MVC, C#, SQL Server, React' },
-        { label: 'Experiencia', value: 'Proyectos reales entregados de punta a punta' },
-        { label: 'Formación', value: 'Estudiante de Ingeniería en Computación' },
-        { label: 'Idiomas', value: 'Español · Inglés' },
-      ],
+      photoAlt: 'Foto de perfil de Gastón Techera, desarrollador .NET',
     },
 
     skills: {
@@ -142,13 +136,7 @@ const translations = {
         "I've built <strong>real projects for small businesses and individuals</strong>, taking them end to end: requirements, development, database and deployment. That gave me experience shipping functional software, not just writing code.",
         "I'm currently pursuing a degree in <strong>Computer Engineering</strong> and continue learning to build more maintainable and scalable products.",
       ],
-      details: [
-        { label: 'Main Role', value: '.NET Developer' },
-        { label: 'Stack', value: 'ASP.NET Core MVC, C#, SQL Server, React' },
-        { label: 'Experience', value: 'Real projects shipped end to end' },
-        { label: 'Education', value: 'Computer Engineering Student' },
-        { label: 'Languages', value: 'Spanish · English' },
-      ],
+      photoAlt: 'Profile photo of Gastón Techera, .NET developer',
     },
 
     skills: {
