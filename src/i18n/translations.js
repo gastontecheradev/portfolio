@@ -34,17 +34,17 @@ const translations = {
           linkLabel: 'Ver proyecto',
         },
         {
+          title: 'Prep Diplomacia',
+          desc: 'Plafatorma educativa online para el Concurso de Ingreso al Servicio Exterior de Uruguay. Cursos, sistema de pagos, gestión de usuarios.',
+          tech: 'ASP.NET Core · C# · SQL Server',
+          linkLabel: 'Ver proyecto',
+        },
+        {
           title: 'Nova Fade Barbería',
           desc: 'Sitio con sistema de agenda online para una barbería en Montevideo. Implementé la lógica de reservas, gestión de turnos y panel del negocio.',
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'Ver proyecto',
         },
-        /*{
-          title: 'Prep Diplomacia',
-          desc: 'Plafatorma educativa online para el Concurso de Ingreso al Servicio Exterior de Uruguay. Cursos, sistema de pagos, gestión de usuarios.',
-          tech: 'ASP.NET Core · C# · SQL Server',
-          linkLabel: 'Ver proyecto',
-        },*/
       ],
     },
 
@@ -125,18 +125,18 @@ const translations = {
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'View project',
         },
+                {
+          title: 'Prep Diplomacia',
+          desc: 'Online learning platform for Uruguay’s Foreign Service Entrance Exam, featuring courses, payment processing, and user management.',
+          tech: 'ASP.NET Core · C# · SQL Server',
+          linkLabel: 'Ver proyecto',
+        },
         {
           title: 'Nova Fade Barbería',
           desc: 'Website with online booking for a barbershop in Montevideo. Implemented the appointment logic, schedule management and business admin panel.',
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'View project',
         },
-        /*{
-          title: 'Prep Diplomacia',
-          desc: 'Online learning platform for Uruguay’s Foreign Service Entrance Exam, featuring courses, payment processing, and user management.',
-          tech: 'ASP.NET Core · C# · SQL Server',
-          linkLabel: 'Ver proyecto',
-        },*/
       ],
     },
 
