@@ -464,13 +464,16 @@ ul { list-style: none; }
 /* ===================================================================
    PROJECTS
    =================================================================== */
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+.projects-list {
+  display: flex;
+  flex-direction: column;
   gap: 1.5rem;
+  max-width: 920px;
+  margin-inline: auto;
 }
 .project-card {
-  display: block;
+  display: flex;
+  align-items: stretch;
   background: #fff;
   border: 1px solid var(--color-border-light);
   border-radius: var(--radius-md);
@@ -483,16 +486,27 @@ ul { list-style: none; }
   transform: translateY(-5px);
   box-shadow: 0 20px 40px rgba(0,0,0,.06), 0 8px 16px rgba(0,0,0,.04);
 }
-.project-img-wrap { overflow: hidden; }
+.project-img-wrap {
+  overflow: hidden;
+  flex: 0 0 38%;
+  max-width: 300px;
+}
 .project-img {
   width: 100%;
-  height: 200px;
+  height: 100%;
+  min-height: 180px;
   object-fit: cover;
   transition: transform .5s var(--ease-out-expo);
 }
 .project-card:hover .project-img { transform: scale(1.05); }
 
-.project-body { padding: 1.4rem; }
+.project-body {
+  padding: 1.4rem 1.6rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .project-title {
   font-family: var(--font-heading);
   font-weight: 600;
@@ -524,7 +538,6 @@ ul { list-style: none; }
   transition: gap var(--transition-base);
 }
 .project-card:hover .project-link-label { gap: .6rem; }
-
 
 /* ===================================================================
    CONTACT
@@ -698,7 +711,10 @@ ul { list-style: none; }
   .about-photo      { max-width: 340px; margin: 0 auto; height: auto; }
   .about-photo img  { height: auto; aspect-ratio: 4 / 5; }
   .skills-grid      { grid-template-columns: 1fr; }
-  .projects-grid    { grid-template-columns: 1fr; }
+  /*.projects-grid    { grid-template-columns: 1fr; }*/
+  .project-card     { flex-direction: column; }
+  .project-img-wrap { flex: none; max-width: none; }
+  .project-img      { height: 200px; }
   .contact-grid     { grid-template-columns: 1fr; }
 
   .hero { padding: 100px 1.5rem 60px; }

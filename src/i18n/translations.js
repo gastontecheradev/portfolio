@@ -39,12 +39,12 @@ const translations = {
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'Ver proyecto',
         },
-        {
+        /*{
           title: 'Prep Diplomacia',
           desc: 'Plafatorma educativa online para el Concurso de Ingreso al Servicio Exterior de Uruguay. Cursos, sistema de pagos, gestión de usuarios.',
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'Ver proyecto',
-        },
+        },*/
       ],
     },
 
@@ -131,12 +131,12 @@ const translations = {
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'View project',
         },
-        {
+        /*{
           title: 'Prep Diplomacia',
           desc: 'Online learning platform for Uruguay’s Foreign Service Entrance Exam, featuring courses, payment processing, and user management.',
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'Ver proyecto',
-        },
+        },*/
       ],
     },
 

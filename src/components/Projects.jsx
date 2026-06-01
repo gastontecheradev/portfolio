@@ -13,9 +13,10 @@ const projectImgs = [
   'https://gastontecheradev.github.io/portfolio/images/proyecto-3.jpg',
   'https://gastontecheradev.github.io/portfolio/images/proyecto-2.jpg',
   'https://gastontecheradev.github.io/portfolio/images/proyecto-4.jpg',
-  
-  
 ];
+
+// Tiempo entre filas (en segundos)
+const ROW_STEP = 0.12;
 
 export default function Projects() {
   const { t } = useLang();
@@ -29,14 +30,15 @@ export default function Projects() {
           <h2 className="section-title">{t.projects.title}</h2>
         </div>
 
-        <div className="projects-grid" ref={ref}>
+        <div className="projects-list" ref={ref}>
           {t.projects.items.map((p, i) => (
             <a
               key={i}
               href={projectUrls[i]}
               target="_blank"
               rel="noopener noreferrer"
-              className={`project-card fade-up fade-up-d${i + 1} ${visible ? 'visible' : ''}`}
+              className={`project-card fade-up ${visible ? 'visible' : ''}`}
+              style={{ transitionDelay: visible ? `${i * ROW_STEP}s` : '0s' }}
             >
               <div className="project-img-wrap">
                 <img src={projectImgs[i]} alt={p.title} className="project-img" loading="lazy" />
