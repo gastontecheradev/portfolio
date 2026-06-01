@@ -3,9 +3,9 @@ import useInView from '../hooks/useInView';
 
 const projectUrls = [
   'https://pasearporpasear.somee.com/',
-  'https://prepdiplomacia.somee.com/',
+  'https://prepdiplomaciaweb.somee.com/',
   'https://gestionpro.somee.com/',
-  'https://novafadestudio.somee.com/',
+  'https://novafade.somee.com/',
 ];
 
 const projectImgs = [
