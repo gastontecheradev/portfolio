@@ -28,14 +28,14 @@ const translations = {
           linkLabel: 'Ver proyecto',
         },
         {
-          title: 'Gestion Pro',
-          desc: 'Sistema de gestión empresarial con control de inventario y productos. Construí backend, modelo de datos y la interfaz de administración.',
+          title: 'Prep Diplomacia',
+          desc: 'Plafatorma educativa online para el Concurso de Ingreso al Servicio Exterior de Uruguay. Cursos, sistema de pagos, gestión de usuarios.',
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'Ver proyecto',
         },
         {
-          title: 'Prep Diplomacia',
-          desc: 'Plafatorma educativa online para el Concurso de Ingreso al Servicio Exterior de Uruguay. Cursos, sistema de pagos, gestión de usuarios.',
+          title: 'Gestion Pro',
+          desc: 'Sistema de gestión empresarial con control de inventario y productos. Construí backend, modelo de datos y la interfaz de administración.',
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'Ver proyecto',
         },
@@ -120,16 +120,16 @@ const translations = {
           linkLabel: 'View project',
         },
         {
-          title: 'Gestion Pro',
-          desc: 'Business management system with inventory and product control. Built the backend, data model and admin interface.',
-          tech: 'ASP.NET Core · C# · SQL Server',
-          linkLabel: 'View project',
-        },
-                {
           title: 'Prep Diplomacia',
           desc: 'Online learning platform for Uruguay’s Foreign Service Entrance Exam, featuring courses, payment processing, and user management.',
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'Ver proyecto',
+        },
+        {
+          title: 'Gestion Pro',
+          desc: 'Business management system with inventory and product control. Built the backend, data model and admin interface.',
+          tech: 'ASP.NET Core · C# · SQL Server',
+          linkLabel: 'View project',
         },
         {
           title: 'Nova Fade Barbería',

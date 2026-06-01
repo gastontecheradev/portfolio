@@ -3,15 +3,15 @@ import useInView from '../hooks/useInView';
 
 const projectUrls = [
   'https://pasearporpasear.somee.com/',
-  'https://gestionpro.somee.com/',
   'https://prepdiplomacia.somee.com/',
+  'https://gestionpro.somee.com/',
   'https://novafadestudio.somee.com/',
 ];
 
 const projectImgs = [
   'https://gastontecheradev.github.io/portfolio/images/proyecto-1.jpg',
+  'https://gastontecheradev.github.io/portfolio/images/proyecto-4.jpg',
   'https://gastontecheradev.github.io/portfolio/images/proyecto-3.jpg',
-    'https://gastontecheradev.github.io/portfolio/images/proyecto-4.jpg',
   'https://gastontecheradev.github.io/portfolio/images/proyecto-2.jpg',
 ];
 
