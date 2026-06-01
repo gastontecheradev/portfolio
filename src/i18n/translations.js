@@ -27,24 +27,24 @@ const translations = {
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'Ver proyecto',
         },
-        {
+        /*{
           title: 'Prep Diplomacia',
           desc: 'Plafatorma educativa online para el Concurso de Ingreso al Servicio Exterior de Uruguay. Cursos, sistema de pagos, gestión de usuarios.',
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'Ver proyecto',
-        },
+        },*/
         {
           title: 'Gestion Pro',
           desc: 'Sistema de gestión empresarial con control de inventario y productos. Construí backend, modelo de datos y la interfaz de administración.',
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'Ver proyecto',
         },
-        {
+        /*{
           title: 'Nova Fade Barbería',
           desc: 'Sitio con sistema de agenda online para una barbería en Montevideo. Implementé la lógica de reservas, gestión de turnos y panel del negocio.',
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'Ver proyecto',
-        },
+        },*/
       ],
     },
 

@@ -3,16 +3,16 @@ import useInView from '../hooks/useInView';
 
 const projectUrls = [
   'https://pasearporpasear.somee.com/',
-  'https://prepdiplomaciaweb.somee.com/',
+  //'https://prepdiplomaciaweb.somee.com/',
   'https://gestionpro.somee.com/',
-  'https://novafade.somee.com/',
+  //'https://novafade.somee.com/',
 ];
 
 const projectImgs = [
   'https://gastontecheradev.github.io/portfolio/images/proyecto-1.jpg',
-  'https://gastontecheradev.github.io/portfolio/images/proyecto-4.jpg',
+  //'https://gastontecheradev.github.io/portfolio/images/proyecto-4.jpg',
   'https://gastontecheradev.github.io/portfolio/images/proyecto-3.jpg',
-  'https://gastontecheradev.github.io/portfolio/images/proyecto-2.jpg',
+  //'https://gastontecheradev.github.io/portfolio/images/proyecto-2.jpg',
 ];
 
 // Tiempo entre filas (en segundos)
