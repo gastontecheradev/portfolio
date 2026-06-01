@@ -85,7 +85,7 @@ const translations = {
         success: '✓ Tu mensaje ha sido enviado con éxito. ¡Gracias!',
         error: '✕ Hubo un error al enviar. Por favor intentá de nuevo.',
       },
-      infoTitle: 'Conectemos',
+      infoTitle: 'Seguí mi trabajo',
     },
 
     footer: 'Montevideo, Uruguay',
@@ -177,7 +177,7 @@ const translations = {
         success: '✓ Your message has been sent successfully. Thank you!',
         error: '✕ There was an error sending your message. Please try again.',
       },
-      infoTitle: "Let's connect",
+      infoTitle: "Follow my work",
     },
 
     footer: 'Montevideo, Uruguay',
