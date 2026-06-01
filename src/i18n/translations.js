@@ -115,19 +115,19 @@ const translations = {
       items: [
         {
           title: 'Pasear por Pasear',
-          desc: 'Web platform for a tourism business in Montevideo. Built the tour booking system, admin panel and newsletter subscription. ASP.NET Core MVC + SQL Server.',
+          desc: 'Web platform for a tourism business in Montevideo. Built the tour booking system, admin panel and newsletter subscription.',
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'View project',
         },
         {
           title: 'Gestion Pro',
-          desc: 'Business management system with inventory and product control. Built the backend, data model and admin interface. ASP.NET Core MVC + SQL Server.',
+          desc: 'Business management system with inventory and product control. Built the backend, data model and admin interface.',
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'View project',
         },
         {
           title: 'Nova Fade Barbería',
-          desc: 'Website with online booking for a barbershop in Montevideo. Implemented the appointment logic, schedule management and business admin panel. ASP.NET Core MVC + SQL Server.',
+          desc: 'Website with online booking for a barbershop in Montevideo. Implemented the appointment logic, schedule management and business admin panel.',
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'View project',
         },
