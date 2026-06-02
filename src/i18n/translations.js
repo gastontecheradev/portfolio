@@ -27,12 +27,12 @@ const translations = {
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'Ver proyecto',
         },
-        /*{
+        {
           title: 'Prep Diplomacia',
           desc: 'Plafatorma educativa online para el Concurso de Ingreso al Servicio Exterior de Uruguay. Cursos, sistema de pagos, gestión de usuarios.',
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'Ver proyecto',
-        },*/
+        },
         {
           title: 'Gestion Pro',
           desc: 'Sistema de gestión empresarial con control de inventario y productos. Construí backend, modelo de datos y la interfaz de administración.',
