@@ -23,7 +23,7 @@ const translations = {
       items: [
         {
           title: 'Pasear por Pasear',
-          desc: 'Plataforma web para un emprendimiento de turismo en Montevideo. Desarrollé el sistema de reservas de tours, panel de administración y suscripción a newsletter. ASP.NET Core MVC + SQL Server.',
+          desc: 'Plataforma web para un emprendimiento de turismo en Montevideo. Blog, sistema de reservas de tours, suscripción a newsletter.',
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'Ver proyecto',
         },
@@ -35,7 +35,7 @@ const translations = {
         },
         {
           title: 'Gestion Pro',
-          desc: 'Sistema de gestión empresarial con control de inventario y productos. Construí backend, modelo de datos y la interfaz de administración.',
+          desc: 'Sistema de gestión empresarial con control de inventario y productos. Interfaz de administración y modelo de datos.',
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'Ver proyecto',
         },
@@ -115,7 +115,7 @@ const translations = {
       items: [
         {
           title: 'Pasear por Pasear',
-          desc: 'Web platform for a tourism business in Montevideo. Built the tour booking system, admin panel and newsletter subscription.',
+          desc: 'Web platform for a tourism business in Montevideo, featuring a blog, a tour booking system, and newsletter subscription.',
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'View project',
         },
@@ -127,16 +127,16 @@ const translations = {
         },
         {
           title: 'Gestion Pro',
-          desc: 'Business management system with inventory and product control. Built the backend, data model and admin interface.',
+          desc: 'Business management system with inventory and product management, featuring an admin interface and a structured data model.',
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'View project',
         },
-        {
+        /*{
           title: 'Nova Fade Barbería',
           desc: 'Website with online booking for a barbershop in Montevideo. Implemented the appointment logic, schedule management and business admin panel.',
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'View project',
-        },
+        },*/
       ],
     },
 
