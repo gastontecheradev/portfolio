@@ -39,12 +39,12 @@ const translations = {
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'Ver proyecto',
         },
-        /*{
+        {
           title: 'Nova Fade Barbería',
           desc: 'Sitio con sistema de agenda online para una barbería en Montevideo. Implementé la lógica de reservas, gestión de turnos y panel del negocio.',
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'Ver proyecto',
-        },*/
+        },
       ],
     },
 
@@ -131,12 +131,12 @@ const translations = {
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'View project',
         },
-        /*{
+        {
           title: 'Nova Fade Barbería',
           desc: 'Website with online booking for a barbershop in Montevideo. Implemented the appointment logic, schedule management and business admin panel.',
           tech: 'ASP.NET Core · C# · SQL Server',
           linkLabel: 'View project',
-        },*/
+        },
       ],
     },
 
