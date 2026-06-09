@@ -2,10 +2,10 @@ import { useLang } from '../i18n/LanguageContext';
 import useInView from '../hooks/useInView';
 
 const projectUrls = [
-  'https://pasearporpasear.somee.com/',
-  'https://prepdiplomaciaweb.somee.com/',
-  'https://gestionpro.somee.com/',
-  'https://novafadestudio.somee.com/',
+  'https://pasearporpasear.azurewebsites.com/',
+  'https://prepdiplomaciaweb.azurewebsites.com/',
+  'https://gestionproweb.azurewebsites.com/',
+  'https://novafadestudio.azurewebsites.com/',
 ];
 
 const projectImgs = [
