@@ -4,14 +4,14 @@ import useInView from '../hooks/useInView';
 const projectUrls = [
   'https://pasearporpasear.azurewebsites.net/',
   'https://prepdiplomacia.azurewebsites.net/',
-  /*'https://gestionproweb.azurewebsites.net/',*/
+  'https://gestionproweb.azurewebsites.net/',
   'https://novafadestudio.azurewebsites.net/',
 ];
 
 const projectImgs = [
   'https://gastontecheradev.github.io/portfolio/images/proyecto-1.jpg',
   'https://gastontecheradev.github.io/portfolio/images/proyecto-4.jpg',
-  /*'https://gastontecheradev.github.io/portfolio/images/proyecto-3.jpg',*/
+  'https://gastontecheradev.github.io/portfolio/images/proyecto-3.jpg',
   'https://gastontecheradev.github.io/portfolio/images/proyecto-2.jpg',
 ];
 

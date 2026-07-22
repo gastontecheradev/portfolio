@@ -33,12 +33,12 @@ const translations = {
           tech: 'ASP.NET Core · C# · SQL',
           linkLabel: 'Ver proyecto',
         },
-        /*{
+        {
           title: 'Gestion Pro',
           desc: 'Sistema de gestión empresarial con control de inventario y productos. Interfaz de administración y modelo de datos.',
           tech: 'ASP.NET Core · C# · SQL',
           linkLabel: 'Ver proyecto',
-        },*/
+        },
         {
           title: 'Nova Fade Barbería',
           desc: 'Sitio con sistema de agenda online para una barbería en Montevideo. Implementé la lógica de reservas, gestión de turnos y panel del negocio.',
@@ -125,12 +125,12 @@ const translations = {
           tech: 'ASP.NET Core · C# · SQL',
           linkLabel: 'Ver proyecto',
         },
-        /*{
+        {
           title: 'Gestion Pro',
           desc: 'Business management system with inventory and product management, featuring an admin interface and a structured data model.',
           tech: 'ASP.NET Core · C# · SQL',
           linkLabel: 'View project',
-        },*/
+        },
         {
           title: 'Nova Fade Barbería',
           desc: 'Website with online booking for a barbershop in Montevideo. Implemented the appointment logic, schedule management and business admin panel.',
