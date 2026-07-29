@@ -2,7 +2,7 @@ import { useLang } from '../i18n/LanguageContext';
 import useInView from '../hooks/useInView';
 
 const projectUrls = [
-  'https://prepdiplomacia.azurewebsites.net/',
+  'https://prepdiplomacia.com/',
   'https://pasearporpasear.azurewebsites.net/',
   'https://gestionproweb.azurewebsites.net/',
   'https://novafadestudio.azurewebsites.net/',
