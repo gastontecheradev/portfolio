@@ -22,14 +22,14 @@ const translations = {
       title: 'Proyectos destacados',
       items: [
         {
-          title: 'Pasear por Pasear',
-          desc: 'Plataforma web para un emprendimiento de turismo en Montevideo. Blog, sistema de reservas de tours, suscripción a newsletter.',
+          title: 'Prep Diplomacia',
+          desc: 'Plafatorma educativa online para el Concurso de Ingreso al Servicio Exterior de Uruguay. Cursos, sistema de pagos, gestión de usuarios.',
           tech: 'ASP.NET Core · C# · SQL',
           linkLabel: 'Ver proyecto',
         },
         {
-          title: 'Prep Diplomacia',
-          desc: 'Plafatorma educativa online para el Concurso de Ingreso al Servicio Exterior de Uruguay. Cursos, sistema de pagos, gestión de usuarios.',
+          title: 'Pasear por Pasear',
+          desc: 'Plataforma web para un emprendimiento de turismo en Montevideo. Blog, sistema de reservas de tours, suscripción a newsletter.',
           tech: 'ASP.NET Core · C# · SQL',
           linkLabel: 'Ver proyecto',
         },
@@ -114,16 +114,16 @@ const translations = {
       title: 'Featured Projects',
       items: [
         {
-          title: 'Pasear por Pasear',
-          desc: 'Web platform for a tourism business in Montevideo, featuring a blog, a tour booking system, and newsletter subscription.',
-          tech: 'ASP.NET Core · C# · SQL',
-          linkLabel: 'View project',
-        },
-        {
           title: 'Prep Diplomacia',
           desc: 'Online learning platform for Uruguay’s Foreign Service Entrance Exam, featuring courses, payment processing, and user management.',
           tech: 'ASP.NET Core · C# · SQL',
           linkLabel: 'Ver proyecto',
+        },
+        {
+          title: 'Pasear por Pasear',
+          desc: 'Web platform for a tourism business in Montevideo, featuring a blog, a tour booking system, and newsletter subscription.',
+          tech: 'ASP.NET Core · C# · SQL',
+          linkLabel: 'View project',
         },
         {
           title: 'Gestion Pro',
