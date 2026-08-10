@@ -9,10 +9,10 @@ const projectUrls = [
 ];
 
 const projectImgs = [
-  'https://gastontecheradev.github.io/portfolio/images/proyecto-4.jpg',
-  'https://gastontecheradev.github.io/portfolio/images/proyecto-1.jpg',
-  'https://gastontecheradev.github.io/portfolio/images/proyecto-3.jpg',
-  'https://gastontecheradev.github.io/portfolio/images/proyecto-2.jpg',
+  `${process.env.PUBLIC_URL}/images/proyecto-4.jpg`,
+  `${process.env.PUBLIC_URL}/images/proyecto-1.jpg`,
+  `${process.env.PUBLIC_URL}/images/proyecto-3.jpg`,
+  `${process.env.PUBLIC_URL}/images/proyecto-2.jpg`,
 ];
 
 // Tiempo entre filas (en segundos)
