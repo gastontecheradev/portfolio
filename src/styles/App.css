@@ -204,7 +204,7 @@ button { font-family: inherit; }
 @media (min-width: 821px) { .navbar-right-mobile { display: none; } }
 
 /* ===================================================================
-   HERO — wordmark gigante + marquee
+   HERO
    =================================================================== */
 .hero {
   position: relative;
@@ -274,35 +274,6 @@ button { font-family: inherit; }
   color: var(--muted);
 }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 1rem; }
-
-/* Cinta marquee con el stack */
-.hero-marquee {
-  position: absolute;
-  left: 0; right: 0; bottom: 0;
-  z-index: 3;
-  background: var(--ink);
-  color: var(--txt-inv);
-  overflow: hidden;
-  padding: 1rem 0;
-}
-.hero-marquee-track {
-  display: flex;
-  gap: 3.2rem;
-  width: max-content;
-  animation: marquee 30s linear infinite;
-}
-.hero-marquee span {
-  display: inline-flex;
-  align-items: center;
-  gap: 3.2rem;
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  white-space: nowrap;
-}
-.hero-marquee span::after { content: '✳'; color: var(--clay); letter-spacing: 0; }
-@keyframes marquee { to { transform: translateX(-50%); } }
 
 /* Animaciones de entrada */
 .hero-anim {
@@ -717,5 +688,4 @@ a.contact-link:hover .contact-link-arrow { opacity: 1; transform: translate(0, 0
   .hero-anim { opacity: 1; transform: none; animation: none; }
   .fade-up { opacity: 1; transform: none; }
   .hero h1 { transform: none !important; }
-  .hero-marquee-track { animation: none; }
 }
