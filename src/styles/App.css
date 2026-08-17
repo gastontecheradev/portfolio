@@ -499,11 +499,15 @@ button { font-family: inherit; }
 .about-text p {
   font-size: 1.03rem;
   line-height: 1.85;
-  color: var(--muted-inv);
+  color: var(--muted);
   margin-bottom: 1.5rem;
 }
 .about-text p:last-child { margin-bottom: 0; }
-.about-text strong { font-weight: 600; color: var(--txt-inv); }
+.about-text strong {
+  font-weight: 600;
+  /* color: var(--txt-inv); */
+  color: var(--ink);
+}
 
 .about-photo {
   position: relative;
