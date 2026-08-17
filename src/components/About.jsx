@@ -6,11 +6,12 @@ export default function About() {
   const [ref, visible] = useInView();
 
   return (
-    <section className="section section-light" id="about">
+    <section className="section section-dark" id="about">
       <div className="container">
         <div className="section-header">
           <span className="section-number">{t.about.number}</span>
           <h2 className="section-title">{t.about.title}</h2>
+          <span className="section-rule" aria-hidden="true" />
         </div>
 
         <div className="about-grid" ref={ref}>

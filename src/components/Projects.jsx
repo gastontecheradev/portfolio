@@ -9,14 +9,16 @@ const projectUrls = [
 ];
 
 const projectImgs = [
-  `${process.env.PUBLIC_URL}/images/proyecto-4.jpg`,
-  `${process.env.PUBLIC_URL}/images/proyecto-1.jpg`,
-  `${process.env.PUBLIC_URL}/images/proyecto-3.jpg`,
-  `${process.env.PUBLIC_URL}/images/proyecto-2.jpg`,
+  'https://gastontecheradev.github.io/portfolio/images/proyecto-4.jpg',
+  'https://gastontecheradev.github.io/portfolio/images/proyecto-1.jpg',
+  'https://gastontecheradev.github.io/portfolio/images/proyecto-3.jpg',
+  'https://gastontecheradev.github.io/portfolio/images/proyecto-2.jpg',
 ];
 
 // Tiempo entre filas (en segundos)
 const ROW_STEP = 0.12;
+
+const hostOf = (url) => new URL(url).hostname;
 
 export default function Projects() {
   const { t } = useLang();
@@ -28,6 +30,7 @@ export default function Projects() {
         <div className="section-header">
           <span className="section-number">{t.projects.number}</span>
           <h2 className="section-title">{t.projects.title}</h2>
+          <span className="section-rule" aria-hidden="true" />
         </div>
 
         <div className="projects-list" ref={ref}>
@@ -40,13 +43,25 @@ export default function Projects() {
               className={`project-card fade-up ${visible ? 'visible' : ''}`}
               style={{ transitionDelay: visible ? `${i * ROW_STEP}s` : '0s' }}
             >
-              <div className="project-img-wrap">
-                <img src={projectImgs[i]} alt={p.title} className="project-img" loading="lazy" />
+              <div className="project-plate">
+                <div className="project-chrome" aria-hidden="true">
+                  <span /><span /><span />
+                  <em>{hostOf(projectUrls[i])}</em>
+                </div>
+                <div className="project-img-wrap">
+                  <img src={projectImgs[i]} alt={p.title} className="project-img" loading="lazy" />
+                </div>
               </div>
+
               <div className="project-body">
+                <span className="project-index">{String(i + 1).padStart(2, '0')}</span>
                 <h3 className="project-title">{p.title}</h3>
                 <p className="project-desc">{p.desc}</p>
-                <p className="project-tech">{p.tech}</p>
+                <p className="project-tech">
+                  {p.tech.split('·').map((tech) => (
+                    <span key={tech.trim()}>{tech.trim()}</span>
+                  ))}
+                </p>
                 <span className="project-link-label">
                   {p.linkLabel}
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
