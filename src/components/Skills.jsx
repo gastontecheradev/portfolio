@@ -17,6 +17,7 @@ export default function Skills() {
         <div className="section-header">
           <span className="section-number">{t.skills.number}</span>
           <h2 className="section-title">{t.skills.title}</h2>
+          <span className="section-rule" aria-hidden="true" />
         </div>
 
         <div className="skills-grid" ref={ref}>

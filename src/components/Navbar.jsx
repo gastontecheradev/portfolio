@@ -5,6 +5,7 @@ export default function Navbar() {
   const { lang, t, toggleLang } = useLang();
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState('');
+  const [scrolled, setScrolled] = useState(false);
 
   const links = [
     { href: '#projects', label: t.nav.projects },
@@ -15,6 +16,7 @@ export default function Navbar() {
 
   useEffect(() => {
     const onScroll = () => {
+      setScrolled(window.scrollY > 24);
       const sections = document.querySelectorAll('section[id]');
       let current = '';
       sections.forEach((s) => {
@@ -22,6 +24,7 @@ export default function Navbar() {
       });
       setActive(current);
     };
+    onScroll();
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
@@ -29,9 +32,9 @@ export default function Navbar() {
   const handleClick = () => setOpen(false);
 
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${scrolled || open ? 'scrolled' : ''}`}>
       <a href="#hero" className="navbar-logo" onClick={handleClick}>
-        Gastón Techera <span>|</span> Portfolio
+        Gastón Techera <span>Portfolio</span>
       </a>
 
       <div className="navbar-links">

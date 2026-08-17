@@ -47,6 +47,7 @@ export default function Contact() {
         <div className="section-header">
           <span className="section-number">{t.contact.number}</span>
           <h2 className="section-title">{t.contact.title}</h2>
+          <span className="section-rule" aria-hidden="true" />
         </div>
 
         <p className="contact-intro">{t.contact.intro}</p>

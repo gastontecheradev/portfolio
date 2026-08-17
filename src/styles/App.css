@@ -402,8 +402,8 @@ button { font-family: inherit; }
 
 .project-card {
   display: grid;
-  /* grid-template-columns: 1.08fr 0.92fr; */
-  grid-template-columns: 0.70fr 1.30fr; /* Tamaño de imagenes*/
+  grid-template-columns: 1.08fr 0.92fr;
+  /*grid-template-columns: 0.70fr 1.30fr;  Tamaño de imagenes*/
   gap: clamp(2.5rem, 5vw, 4.5rem);
   align-items: center;
   padding: clamp(3rem, 6vw, 4.5rem) 0;
@@ -506,7 +506,7 @@ button { font-family: inherit; }
 .about-text strong {
   font-weight: 600;
   /* color: var(--txt-inv); */
-  color: var(--ink);
+  color: var(--ink-inv);
 }
 
 .about-photo {
