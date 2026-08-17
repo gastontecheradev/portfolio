@@ -1,8 +1,10 @@
 import { useEffect, useRef } from 'react';
 import { useLang } from '../i18n/LanguageContext';
 
+const CHAR_STEP = 0.04; // segundos entre letra y letra
+
 export default function Hero() {
-  const { t } = useLang();
+  const { t, lang } = useLang();
   const sectionRef = useRef(null);
 
   // Parallax sutil del wordmark: expone --py (scroll) como variable CSS
@@ -28,6 +30,18 @@ export default function Hero() {
     };
   }, []);
 
+  // Parte una palabra en letras, cada una con su retraso
+  const renderChars = (word, startIndex) =>
+    Array.from(word).map((char, i) => (
+      <span
+        key={i}
+        className="hero-char"
+        style={{ animationDelay: `${(startIndex + i) * CHAR_STEP}s` }}
+      >
+        {char === ' ' ? '\u00A0' : char}
+      </span>
+    ));
+
   return (
     <section className="hero" id="hero" ref={sectionRef}>
       <div className="hero-content">
@@ -36,8 +50,13 @@ export default function Hero() {
           <p className="hero-loc">{t.footer}</p>
         </div>
 
-        <h1 className="hero-anim hero-anim-2">
-          {t.hero.name} {t.hero.lastName}
+        <h1 key={lang} aria-label={`${t.hero.name} ${t.hero.lastName}`}>
+          <span className="hero-line" aria-hidden="true">
+            {renderChars(t.hero.name, 0)}
+          </span>
+          <span className="hero-line" aria-hidden="true">
+            {renderChars(t.hero.lastName, t.hero.name.length)}
+          </span>
         </h1>
 
         <div className="hero-bottom hero-anim hero-anim-4">
@@ -53,7 +72,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-
     </section>
   );
 }
