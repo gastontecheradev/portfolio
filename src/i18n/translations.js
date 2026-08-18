@@ -19,7 +19,7 @@ const translations = {
 
     projects: {
       number: '01',
-      title: 'Proyectos destacados',
+      title: 'Proyectos',
       items: [
         {
           title: 'Prep Diplomacia',
@@ -111,7 +111,7 @@ const translations = {
 
     projects: {
       number: '01',
-      title: 'Featured Projects',
+      title: 'Projects',
       items: [
         {
           title: 'Prep Diplomacia',
