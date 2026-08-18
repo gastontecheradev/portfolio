@@ -117,7 +117,7 @@ const translations = {
           title: 'Prep Diplomacia',
           desc: 'Online learning platform for Uruguay’s Foreign Service Entrance Exam, featuring courses, payment processing, and user management.',
           tech: 'ASP.NET Core · C# · SQL',
-          linkLabel: 'Ver proyecto',
+          linkLabel: 'View project',
         },
         {
           title: 'Pasear por Pasear',
