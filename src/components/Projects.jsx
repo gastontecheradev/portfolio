@@ -3,7 +3,7 @@ import useInView from '../hooks/useInView';
 
 const projectUrls = [
   'https://prepdiplomacia.com/',
-  'https://pasearporpasear.azurewebsites.net/',
+  'https://pasearporpasear.com/',
   'https://gestionproweb.azurewebsites.net/',
   'https://novafadestudio.azurewebsites.net/',
 ];
