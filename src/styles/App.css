@@ -257,7 +257,7 @@ button { font-family: inherit; }
 
 .hero h1 {
   /*font-size: clamp(4rem, 15.5vw, 12rem);*/
-  font-size: clamp(3rem, 11vw, 8.5rem); /**/
+  font-size: clamp(3rem, 11vw, 6.5rem); /**/
   line-height: 0.88;
   color: var(--ink);
   margin: 2.4rem 0 2.6rem;
