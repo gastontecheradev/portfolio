@@ -4,6 +4,7 @@ import useInView from '../hooks/useInView';
 const projectUrls = [
   'https://pasearporpasear.com/',
   'https://prepdiplomacia.com/',
+  'https://jobtrackeruy.azurewebsites.net/',
   'https://gestionproweb.azurewebsites.net/',
   'https://novafadestudio.azurewebsites.net/',
 ];
@@ -11,6 +12,7 @@ const projectUrls = [
 const projectImgs = [
   'https://gastontecheradev.github.io/portfolio/images/proyecto-1.jpg',
   'https://gastontecheradev.github.io/portfolio/images/proyecto-4.jpg',
+  'https://gastontecheradev.github.io/portfolio/images/proyecto-5.jpg',
   'https://gastontecheradev.github.io/portfolio/images/proyecto-3.jpg',
   'https://gastontecheradev.github.io/portfolio/images/proyecto-2.jpg',
 ];

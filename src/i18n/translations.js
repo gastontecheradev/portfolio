@@ -34,6 +34,12 @@ const translations = {
           linkLabel: 'Ver proyecto',
         },
         {
+          title: 'JobTrackerUy',
+          desc: 'Plataforma web de búsqueda laboral que centraliza ofertas, evalúa su coincidencia con el perfil y realizar el seguimiento de postulaciones y métricas.',
+          tech: 'ASP.NET Core · C# · SQL',
+          linkLabel: 'Ver proyecto',
+        },
+        {
           title: 'Gestion Pro',
           desc: 'Sistema de gestión empresarial con control de inventario y productos. Interfaz de administración y modelo de datos.',
           tech: 'ASP.NET Core · C# · SQL',
@@ -122,6 +128,12 @@ const translations = {
         {
           title: 'Prep Diplomacia',
           desc: 'Online learning platform for Uruguay’s Foreign Service Entrance Exam, featuring courses, payment processing, and user management.',
+          tech: 'ASP.NET Core · C# · SQL',
+          linkLabel: 'View project',
+        },
+        {
+          title: 'JobTrackerUy',
+          desc: 'A job search platform that centralizes job listings, assesses their relevance to the user’s profile, and helps track applications and key metrics.',
           tech: 'ASP.NET Core · C# · SQL',
           linkLabel: 'View project',
         },
